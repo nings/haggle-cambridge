@@ -47,6 +47,9 @@ class ForwarderLabel : public ForwarderAsynchronous {
 
 #define PROPHET_NAME "Prophet"
 
+#define LABEL_NAME "Null"
+
+
 private:  
 
 	/**
