@@ -1,8 +1,8 @@
 libhaggle_la-interface.lo: interface.c /usr/include/stdlib.h \
  /usr/include/features.h /usr/include/bits/predefs.h \
  /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
- /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
- /usr/lib/gcc/i486-linux-gnu/4.4.5/include/stddef.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/stddef.h \
  /usr/include/sys/types.h /usr/include/bits/types.h \
  /usr/include/bits/typesizes.h /usr/include/time.h /usr/include/endian.h \
  /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
@@ -11,14 +11,14 @@ libhaggle_la-interface.lo: interface.c /usr/include/stdlib.h \
  /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
  /usr/include/alloca.h /usr/include/string.h /usr/include/xlocale.h \
  /usr/include/bits/string.h /usr/include/bits/string2.h \
- /usr/lib/gcc/i486-linux-gnu/4.4.5/include/stdarg.h /usr/include/stdio.h \
- /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
- /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
- /usr/include/bits/stdio.h metadata.h include/libhaggle/platform.h \
- include/libhaggle/exports.h /usr/include/sys/time.h \
- include/libhaggle/list.h include/libhaggle/attribute.h \
- include/libhaggle/list.h metadata_xml.h base64.h \
- /usr/lib/gcc/i486-linux-gnu/4.4.5/include/stdbool.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/stdarg.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/wchar.h /usr/include/bits/stdio_lim.h \
+ /usr/include/bits/sys_errlist.h /usr/include/bits/stdio.h metadata.h \
+ include/libhaggle/platform.h include/libhaggle/exports.h \
+ /usr/include/sys/time.h include/libhaggle/list.h \
+ include/libhaggle/attribute.h include/libhaggle/list.h metadata_xml.h \
+ base64.h /usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/stdbool.h \
  include/libhaggle/haggle.h include/libhaggle/error.h \
  include/libhaggle/exports.h include/libhaggle/interface.h \
  include/libhaggle/platform.h include/libhaggle/dataobject.h \
@@ -39,9 +39,9 @@ libhaggle_la-interface.lo: interface.c /usr/include/stdlib.h \
 
 /usr/include/gnu/stubs.h:
 
-/usr/include/gnu/stubs-32.h:
+/usr/include/gnu/stubs-64.h:
 
-/usr/lib/gcc/i486-linux-gnu/4.4.5/include/stddef.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/stddef.h:
 
 /usr/include/sys/types.h:
 
@@ -79,7 +79,7 @@ libhaggle_la-interface.lo: interface.c /usr/include/stdlib.h \
 
 /usr/include/bits/string2.h:
 
-/usr/lib/gcc/i486-linux-gnu/4.4.5/include/stdarg.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/stdarg.h:
 
 /usr/include/stdio.h:
 
@@ -113,7 +113,7 @@ metadata_xml.h:
 
 base64.h:
 
-/usr/lib/gcc/i486-linux-gnu/4.4.5/include/stdbool.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/stdbool.h:
 
 include/libhaggle/haggle.h:
 

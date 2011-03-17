@@ -3,10 +3,10 @@ Reference.o: Reference.cpp include/libcpphaggle/Reference.h \
  ../config.h /usr/include/unistd.h /usr/include/features.h \
  /usr/include/bits/predefs.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
- /usr/include/gnu/stubs-32.h /usr/include/bits/posix_opt.h \
+ /usr/include/gnu/stubs-64.h /usr/include/bits/posix_opt.h \
  /usr/include/bits/environments.h /usr/include/bits/types.h \
  /usr/include/bits/typesizes.h \
- /usr/lib/gcc/i486-linux-gnu/4.4.5/include/stddef.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/stddef.h \
  /usr/include/bits/confname.h /usr/include/getopt.h \
  /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h \
  /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
@@ -31,7 +31,8 @@ Reference.o: Reference.cpp include/libcpphaggle/Reference.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  include/libcpphaggle/Pair.h include/libcpphaggle/List.h \
  /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
- /usr/include/wchar.h /usr/lib/gcc/i486-linux-gnu/4.4.5/include/stdarg.h \
+ /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/stdarg.h \
  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
  /usr/include/bits/stdio.h include/libcpphaggle/Mutex.h \
  /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
@@ -39,8 +40,8 @@ Reference.o: Reference.cpp include/libcpphaggle/Reference.h \
  /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
  /usr/include/alloca.h include/libcpphaggle/String.h \
  include/libcpphaggle/HashMap.h \
- /usr/lib/gcc/i486-linux-gnu/4.4.5/include-fixed/limits.h \
- /usr/lib/gcc/i486-linux-gnu/4.4.5/include-fixed/syslimits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.4.5/include-fixed/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.4.5/include-fixed/syslimits.h \
  /usr/include/limits.h /usr/include/bits/posix1_lim.h \
  /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
  /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
@@ -51,10 +52,10 @@ Reference.o: Reference.cpp include/libcpphaggle/Reference.h \
  /usr/include/asm-generic/int-ll64.h /usr/include/asm/bitsperlong.h \
  /usr/include/asm-generic/bitsperlong.h /usr/include/linux/posix_types.h \
  /usr/include/linux/stddef.h /usr/include/asm/posix_types.h \
- /usr/include/asm/posix_types_32.h /usr/include/net/ethernet.h \
+ /usr/include/asm/posix_types_64.h /usr/include/net/ethernet.h \
  /usr/include/net/if_arp.h ../utils/bloomfilter.h \
  ../utils/counting_bloomfilter.h ../utils/base64.h \
- /usr/lib/gcc/i486-linux-gnu/4.4.5/include/stdbool.h ../utils/thread.h
+ /usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/stdbool.h ../utils/thread.h
 
 include/libcpphaggle/Reference.h:
 
@@ -76,7 +77,7 @@ include/libcpphaggle/PlatformDetect.h:
 
 /usr/include/gnu/stubs.h:
 
-/usr/include/gnu/stubs-32.h:
+/usr/include/gnu/stubs-64.h:
 
 /usr/include/bits/posix_opt.h:
 
@@ -86,7 +87,7 @@ include/libcpphaggle/PlatformDetect.h:
 
 /usr/include/bits/typesizes.h:
 
-/usr/lib/gcc/i486-linux-gnu/4.4.5/include/stddef.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/stddef.h:
 
 /usr/include/bits/confname.h:
 
@@ -198,7 +199,7 @@ include/libcpphaggle/List.h:
 
 /usr/include/wchar.h:
 
-/usr/lib/gcc/i486-linux-gnu/4.4.5/include/stdarg.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/stdarg.h:
 
 /usr/include/bits/stdio_lim.h:
 
@@ -228,9 +229,9 @@ include/libcpphaggle/String.h:
 
 include/libcpphaggle/HashMap.h:
 
-/usr/lib/gcc/i486-linux-gnu/4.4.5/include-fixed/limits.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include-fixed/limits.h:
 
-/usr/lib/gcc/i486-linux-gnu/4.4.5/include-fixed/syslimits.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include-fixed/syslimits.h:
 
 /usr/include/limits.h:
 
@@ -274,7 +275,7 @@ include/libcpphaggle/HashMap.h:
 
 /usr/include/asm/posix_types.h:
 
-/usr/include/asm/posix_types_32.h:
+/usr/include/asm/posix_types_64.h:
 
 /usr/include/net/ethernet.h:
 
@@ -286,6 +287,6 @@ include/libcpphaggle/HashMap.h:
 
 ../utils/base64.h:
 
-/usr/lib/gcc/i486-linux-gnu/4.4.5/include/stdbool.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/stdbool.h:
 
 ../utils/thread.h:
