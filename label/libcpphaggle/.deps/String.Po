@@ -1,8 +1,8 @@
 String.o: String.cpp include/libcpphaggle/String.h /usr/include/stdlib.h \
  /usr/include/features.h /usr/include/bits/predefs.h \
  /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
- /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
- /usr/lib/gcc/i486-linux-gnu/4.4.5/include/stddef.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/stddef.h \
  /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
  /usr/include/endian.h /usr/include/bits/endian.h \
  /usr/include/bits/byteswap.h /usr/include/xlocale.h \
@@ -13,7 +13,7 @@ String.o: String.cpp include/libcpphaggle/String.h /usr/include/stdlib.h \
  /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
  /usr/include/alloca.h /usr/include/string.h /usr/include/stdio.h \
  /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
- /usr/lib/gcc/i486-linux-gnu/4.4.5/include/stdarg.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/stdarg.h \
  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
  /usr/include/bits/stdio.h include/libcpphaggle/PlatformDetect.h
 
@@ -31,9 +31,9 @@ include/libcpphaggle/String.h:
 
 /usr/include/gnu/stubs.h:
 
-/usr/include/gnu/stubs-32.h:
+/usr/include/gnu/stubs-64.h:
 
-/usr/lib/gcc/i486-linux-gnu/4.4.5/include/stddef.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/stddef.h:
 
 /usr/include/bits/waitflags.h:
 
@@ -79,7 +79,7 @@ include/libcpphaggle/String.h:
 
 /usr/include/wchar.h:
 
-/usr/lib/gcc/i486-linux-gnu/4.4.5/include/stdarg.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/stdarg.h:
 
 /usr/include/bits/stdio_lim.h:
 
