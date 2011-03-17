@@ -1,11 +1,11 @@
 haggle-main.o: main.cpp /usr/include/stdio.h /usr/include/features.h \
  /usr/include/bits/predefs.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
- /usr/include/gnu/stubs-32.h \
- /usr/lib/gcc/i486-linux-gnu/4.4.5/include/stddef.h \
+ /usr/include/gnu/stubs-64.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/stddef.h \
  /usr/include/bits/types.h /usr/include/bits/typesizes.h \
  /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
- /usr/lib/gcc/i486-linux-gnu/4.4.5/include/stdarg.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/stdarg.h \
  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
  /usr/include/bits/stdio.h /usr/include/stdlib.h \
  /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
@@ -42,9 +42,9 @@ haggle-main.o: main.cpp /usr/include/stdio.h /usr/include/features.h \
  ../libcpphaggle/include/libcpphaggle/Pair.h \
  ../libcpphaggle/include/libcpphaggle/Exception.h \
  /usr/include/c++/4.4/exception \
- /usr/include/c++/4.4/i486-linux-gnu/bits/c++config.h \
- /usr/include/c++/4.4/i486-linux-gnu/bits/os_defines.h \
- /usr/include/c++/4.4/i486-linux-gnu/bits/cpu_defines.h \
+ /usr/include/c++/4.4/x86_64-linux-gnu/bits/c++config.h \
+ /usr/include/c++/4.4/x86_64-linux-gnu/bits/os_defines.h \
+ /usr/include/c++/4.4/x86_64-linux-gnu/bits/cpu_defines.h \
  ../libcpphaggle/include/libcpphaggle/Timeval.h ../utils/haggleutils.h \
  ../utils/utils.h ../utils/prng.h /usr/include/netinet/ether.h \
  /usr/include/netinet/if_ether.h /usr/include/linux/if_ether.h \
@@ -52,10 +52,10 @@ haggle-main.o: main.cpp /usr/include/stdio.h /usr/include/features.h \
  /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
  /usr/include/asm/bitsperlong.h /usr/include/asm-generic/bitsperlong.h \
  /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
- /usr/include/asm/posix_types.h /usr/include/asm/posix_types_32.h \
+ /usr/include/asm/posix_types.h /usr/include/asm/posix_types_64.h \
  /usr/include/net/ethernet.h /usr/include/net/if_arp.h \
  ../utils/bloomfilter.h ../utils/counting_bloomfilter.h ../utils/base64.h \
- /usr/lib/gcc/i486-linux-gnu/4.4.5/include/stdbool.h ../utils/thread.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/stdbool.h ../utils/thread.h \
  ../libcpphaggle/include/libcpphaggle/String.h \
  ../libcpphaggle/include/libcpphaggle/Signal.h \
  ../libcpphaggle/include/libcpphaggle/Mutex.h \
@@ -68,8 +68,8 @@ haggle-main.o: main.cpp /usr/include/stdio.h /usr/include/features.h \
  ../libcpphaggle/include/libcpphaggle/Pair.h \
  ../libcpphaggle/include/libcpphaggle/List.h \
  ../libcpphaggle/include/libcpphaggle/HashMap.h \
- /usr/lib/gcc/i486-linux-gnu/4.4.5/include-fixed/limits.h \
- /usr/lib/gcc/i486-linux-gnu/4.4.5/include-fixed/syslimits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.4.5/include-fixed/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.4.5/include-fixed/syslimits.h \
  /usr/include/limits.h /usr/include/bits/posix1_lim.h \
  /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
  /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h Trace.h \
@@ -139,9 +139,9 @@ haggle-main.o: main.cpp /usr/include/stdio.h /usr/include/features.h \
 
 /usr/include/gnu/stubs.h:
 
-/usr/include/gnu/stubs-32.h:
+/usr/include/gnu/stubs-64.h:
 
-/usr/lib/gcc/i486-linux-gnu/4.4.5/include/stddef.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/stddef.h:
 
 /usr/include/bits/types.h:
 
@@ -153,7 +153,7 @@ haggle-main.o: main.cpp /usr/include/stdio.h /usr/include/features.h \
 
 /usr/include/wchar.h:
 
-/usr/lib/gcc/i486-linux-gnu/4.4.5/include/stdarg.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/stdarg.h:
 
 /usr/include/bits/stdio_lim.h:
 
@@ -299,11 +299,11 @@ haggle-main.o: main.cpp /usr/include/stdio.h /usr/include/features.h \
 
 /usr/include/c++/4.4/exception:
 
-/usr/include/c++/4.4/i486-linux-gnu/bits/c++config.h:
+/usr/include/c++/4.4/x86_64-linux-gnu/bits/c++config.h:
 
-/usr/include/c++/4.4/i486-linux-gnu/bits/os_defines.h:
+/usr/include/c++/4.4/x86_64-linux-gnu/bits/os_defines.h:
 
-/usr/include/c++/4.4/i486-linux-gnu/bits/cpu_defines.h:
+/usr/include/c++/4.4/x86_64-linux-gnu/bits/cpu_defines.h:
 
 ../libcpphaggle/include/libcpphaggle/Timeval.h:
 
@@ -337,7 +337,7 @@ haggle-main.o: main.cpp /usr/include/stdio.h /usr/include/features.h \
 
 /usr/include/asm/posix_types.h:
 
-/usr/include/asm/posix_types_32.h:
+/usr/include/asm/posix_types_64.h:
 
 /usr/include/net/ethernet.h:
 
@@ -349,7 +349,7 @@ haggle-main.o: main.cpp /usr/include/stdio.h /usr/include/features.h \
 
 ../utils/base64.h:
 
-/usr/lib/gcc/i486-linux-gnu/4.4.5/include/stdbool.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/stdbool.h:
 
 ../utils/thread.h:
 
@@ -385,9 +385,9 @@ DataObject.h:
 
 ../libcpphaggle/include/libcpphaggle/HashMap.h:
 
-/usr/lib/gcc/i486-linux-gnu/4.4.5/include-fixed/limits.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include-fixed/limits.h:
 
-/usr/lib/gcc/i486-linux-gnu/4.4.5/include-fixed/syslimits.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include-fixed/syslimits.h:
 
 /usr/include/limits.h:
 

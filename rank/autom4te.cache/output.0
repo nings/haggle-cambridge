@@ -16505,7 +16505,7 @@ fi
 $as_echo "@%:@define HAVE_ANDROID_SDK test x\$have_android_sdk = xyes" >>confdefs.h
 
 
-ac_config_files="$ac_config_files Makefile hagglekernel/Makefile libcpphaggle/Makefile libhaggle/Makefile libhaggle/jni/Makefile libhaggle/jni/java/org/haggle/Makefile libhaggle/jni/native/Makefile utils/Makefile"
+ac_config_files="$ac_config_files Makefile hagglekernel/Makefile libcpphaggle/Makefile libhaggle/Makefile utils/Makefile"
 
 cat >confcache <<\_ACEOF
 # This file is a shell script that caches the results of configure
@@ -17694,9 +17694,6 @@ do
     "hagglekernel/Makefile") CONFIG_FILES="$CONFIG_FILES hagglekernel/Makefile" ;;
     "libcpphaggle/Makefile") CONFIG_FILES="$CONFIG_FILES libcpphaggle/Makefile" ;;
     "libhaggle/Makefile") CONFIG_FILES="$CONFIG_FILES libhaggle/Makefile" ;;
-    "libhaggle/jni/Makefile") CONFIG_FILES="$CONFIG_FILES libhaggle/jni/Makefile" ;;
-    "libhaggle/jni/java/org/haggle/Makefile") CONFIG_FILES="$CONFIG_FILES libhaggle/jni/java/org/haggle/Makefile" ;;
-    "libhaggle/jni/native/Makefile") CONFIG_FILES="$CONFIG_FILES libhaggle/jni/native/Makefile" ;;
     "utils/Makefile") CONFIG_FILES="$CONFIG_FILES utils/Makefile" ;;
 
   *) as_fn_error $? "invalid argument: \`$ac_config_target'" "$LINENO" 5 ;;

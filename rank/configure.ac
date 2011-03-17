@@ -624,9 +624,6 @@ AC_CONFIG_FILES([Makefile
                  hagglekernel/Makefile
                  libcpphaggle/Makefile
                  libhaggle/Makefile
-                 libhaggle/jni/Makefile
-                 libhaggle/jni/java/org/haggle/Makefile
-                 libhaggle/jni/native/Makefile
                  utils/Makefile])
 AC_OUTPUT
 

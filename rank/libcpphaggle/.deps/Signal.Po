@@ -3,10 +3,10 @@ Signal.o: Signal.cpp include/libcpphaggle/Signal.h \
  ../config.h /usr/include/unistd.h /usr/include/features.h \
  /usr/include/bits/predefs.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
- /usr/include/gnu/stubs-32.h /usr/include/bits/posix_opt.h \
+ /usr/include/gnu/stubs-64.h /usr/include/bits/posix_opt.h \
  /usr/include/bits/environments.h /usr/include/bits/types.h \
  /usr/include/bits/typesizes.h \
- /usr/lib/gcc/i486-linux-gnu/4.4.5/include/stddef.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/stddef.h \
  /usr/include/bits/confname.h /usr/include/getopt.h \
  /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h \
  /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
@@ -31,7 +31,8 @@ Signal.o: Signal.cpp include/libcpphaggle/Signal.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  ../utils/haggleutils.h ../utils/utils.h ../utils/prng.h \
  /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
- /usr/include/wchar.h /usr/lib/gcc/i486-linux-gnu/4.4.5/include/stdarg.h \
+ /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/stdarg.h \
  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
  /usr/include/bits/stdio.h /usr/include/netinet/ether.h \
  /usr/include/netinet/if_ether.h /usr/include/linux/if_ether.h \
@@ -39,19 +40,19 @@ Signal.o: Signal.cpp include/libcpphaggle/Signal.h \
  /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
  /usr/include/asm/bitsperlong.h /usr/include/asm-generic/bitsperlong.h \
  /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
- /usr/include/asm/posix_types.h /usr/include/asm/posix_types_32.h \
+ /usr/include/asm/posix_types.h /usr/include/asm/posix_types_64.h \
  /usr/include/net/ethernet.h /usr/include/net/if_arp.h \
  ../utils/bloomfilter.h ../utils/counting_bloomfilter.h ../utils/base64.h \
- /usr/lib/gcc/i486-linux-gnu/4.4.5/include/stdbool.h ../utils/thread.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/stdbool.h ../utils/thread.h \
  include/libcpphaggle/Mutex.h /usr/include/pthread.h /usr/include/sched.h \
  /usr/include/bits/sched.h /usr/include/bits/setjmp.h \
  /usr/include/stdlib.h /usr/include/bits/waitflags.h \
  /usr/include/bits/waitstatus.h /usr/include/alloca.h \
  include/libcpphaggle/String.h include/libcpphaggle/Exception.h \
  /usr/include/c++/4.4/exception \
- /usr/include/c++/4.4/i486-linux-gnu/bits/c++config.h \
- /usr/include/c++/4.4/i486-linux-gnu/bits/os_defines.h \
- /usr/include/c++/4.4/i486-linux-gnu/bits/cpu_defines.h \
+ /usr/include/c++/4.4/x86_64-linux-gnu/bits/c++config.h \
+ /usr/include/c++/4.4/x86_64-linux-gnu/bits/os_defines.h \
+ /usr/include/c++/4.4/x86_64-linux-gnu/bits/cpu_defines.h \
  /usr/include/fcntl.h /usr/include/bits/fcntl.h /usr/include/sys/stat.h \
  /usr/include/bits/stat.h
 
@@ -75,7 +76,7 @@ include/libcpphaggle/PlatformDetect.h:
 
 /usr/include/gnu/stubs.h:
 
-/usr/include/gnu/stubs-32.h:
+/usr/include/gnu/stubs-64.h:
 
 /usr/include/bits/posix_opt.h:
 
@@ -85,7 +86,7 @@ include/libcpphaggle/PlatformDetect.h:
 
 /usr/include/bits/typesizes.h:
 
-/usr/lib/gcc/i486-linux-gnu/4.4.5/include/stddef.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/stddef.h:
 
 /usr/include/bits/confname.h:
 
@@ -199,7 +200,7 @@ include/libcpphaggle/PlatformDetect.h:
 
 /usr/include/wchar.h:
 
-/usr/lib/gcc/i486-linux-gnu/4.4.5/include/stdarg.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/stdarg.h:
 
 /usr/include/bits/stdio_lim.h:
 
@@ -231,7 +232,7 @@ include/libcpphaggle/PlatformDetect.h:
 
 /usr/include/asm/posix_types.h:
 
-/usr/include/asm/posix_types_32.h:
+/usr/include/asm/posix_types_64.h:
 
 /usr/include/net/ethernet.h:
 
@@ -243,7 +244,7 @@ include/libcpphaggle/PlatformDetect.h:
 
 ../utils/base64.h:
 
-/usr/lib/gcc/i486-linux-gnu/4.4.5/include/stdbool.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/stdbool.h:
 
 ../utils/thread.h:
 
@@ -271,11 +272,11 @@ include/libcpphaggle/Exception.h:
 
 /usr/include/c++/4.4/exception:
 
-/usr/include/c++/4.4/i486-linux-gnu/bits/c++config.h:
+/usr/include/c++/4.4/x86_64-linux-gnu/bits/c++config.h:
 
-/usr/include/c++/4.4/i486-linux-gnu/bits/os_defines.h:
+/usr/include/c++/4.4/x86_64-linux-gnu/bits/os_defines.h:
 
-/usr/include/c++/4.4/i486-linux-gnu/bits/cpu_defines.h:
+/usr/include/c++/4.4/x86_64-linux-gnu/bits/cpu_defines.h:
 
 /usr/include/fcntl.h:
 
