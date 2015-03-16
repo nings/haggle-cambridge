@@ -1,0 +1,7 @@
+Haggle Overview - Prototyping Pocket Switched Networking
+
+The Haggle project is exploring networking for mobile users using local peer-to-peer wireless connections as well as infrastructure-based Internet access when available. The use of local connectivity is not well-supported in today's deployed devices and applications - for example, many users rely on USB keys for transferring data when their devices have compatible wireless interfaces.
+
+We envision a networking environment in which local connections and user mobility are as important as infrastructure access is today for delivering data - an environment which we call Pocket Switched Networking. Enabling factors for Pocket Switched Networking include the recent deployment of programmable mobile devices with wireless networking, for example with smart phones, and the huge increase in the sizes of memory available on such devices, so that our devices have spare capacity to carry data around for others.
+
+There are many challenges in this field, including the characterization of the properties of networks relying on human mobility, the construction of a networking architecture which can support both local and global connectivity, the problem of forwarding data efficiently in such networks, and also issues with security, privacy, and usability. We aim to explore this space using test bed deployments and experimentation.
